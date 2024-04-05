@@ -17,3 +17,6 @@ jobs:
 
       - name: test storage
         run: df -h 
+
+      - name: test docker
+        run: docker ps
