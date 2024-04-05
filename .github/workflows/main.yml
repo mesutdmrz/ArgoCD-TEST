@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build APK
-    runs-on: unity
+    runs-on: self-hosted
 
     steps:
       # Checkout the repository
